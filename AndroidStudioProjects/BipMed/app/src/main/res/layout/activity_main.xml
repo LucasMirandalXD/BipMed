@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-MAIL"
+            android:textColor="@color/branco"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="oSeu@email.com"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="SENHA"
+            android:textColor="@color/branco"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="********"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_edit"
+            android:padding="14dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_botao"
+            app:backgroundTint="@null"
+            android:layout_marginTop="16dp"
+            android:text="Acessar"
+            android:textAllCaps="false"
+            android:textColor="@color/ig_back"/>
+    </LinearLayout>
+</ScrollView>
